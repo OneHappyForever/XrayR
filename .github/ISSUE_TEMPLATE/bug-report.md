@@ -4,7 +4,6 @@ about: 创建一个报告以帮助我们修复并改进XrayR
 title: ''
 labels: awaiting reply, bug
 assignees: ''
-
 ---
 
 **描述该错误**
