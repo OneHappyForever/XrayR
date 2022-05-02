@@ -18,9 +18,7 @@
         {
             "type": "field",
             "outboundTag": "socks5-warp",
-            "domain": [
-                "geosite:google"
-            ]
+            "domain": []
         },
         {
             "type": "field",
