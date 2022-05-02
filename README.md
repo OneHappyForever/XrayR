@@ -55,6 +55,10 @@ A Xray backend framework that can easily support many panels.
 | [PMPanel](https://github.com/ByteInternetHK/PMPanel)   | √     | √      | √                              |
 | [ProxyPanel](https://github.com/ProxyPanel/ProxyPanel) | √     | √      | √                              |
 
+## TODO
+
+* 支持WARP Socks5代理模式分流
+
 ## 软件安装
 
 ### 一键安装
