@@ -95,3 +95,7 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/XrayR-script/master/insta
 [XrayR后端讨论](https://t.me/XrayR_project)
 
 [XrayR通知](https://t.me/XrayR_channel)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Misaka-blog/XrayR.svg)](https://starchart.cc/Misaka-blog/XrayR)
