@@ -96,6 +96,6 @@ wget -N https://raw.githubusercontents.com/Misaka-blog/XrayR-script/master/insta
 
 [XrayR通知](https://t.me/XrayR_channel)
 
-## Stargazers over time
+## Stars 增长记录
 
 [![Stargazers over time](https://starchart.cc/Misaka-blog/XrayR.svg)](https://starchart.cc/Misaka-blog/XrayR)
