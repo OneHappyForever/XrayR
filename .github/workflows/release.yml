@@ -26,7 +26,7 @@ jobs:
     strategy:
       matrix:
         # Include amd64 on all platforms.
-        goos: [windows, freebsd, openbsd, linux, dragonfly, darwin]
+        goos: [windows, freebsd, linux, dragonfly, darwin]
         goarch: [amd64, 386]
         exclude:
           # Exclude i386 on darwin and dragonfly.
@@ -34,8 +34,6 @@ jobs:
             goos: dragonfly
           - goarch: 386
             goos: darwin
-          - goarch: 386
-            goos: openbsd
         include:
           # BEIGIN MacOS ARM64
           - goos: darwin
@@ -133,7 +131,6 @@ jobs:
         run: |
           cd ./build_assets || exit 1
           mv XrayR XrayR.exe
-
       - name: Prepare to release
         run: |
           cp ${GITHUB_WORKSPACE}/README.md ./build_assets/README.md
@@ -182,7 +179,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         if: github.event_name == 'release'
         with:
-          repo_token: ${{ secrets.GAYHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./XrayR-${{ steps.get_filename.outputs.ASSET_NAME }}.zip*
           tag: ${{ github.ref }}
           file_glob: true
